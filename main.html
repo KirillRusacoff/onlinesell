@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINESELL</title>
+    <link rel="stylesheet" href="css/main-site.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <a href="#" class="logo-text">ONLINESELL</a>
+            </div>
+            <ul class="menu">
+                <li id="on-main">Дашборд</li>
+                <li>Заказы</li>
+                <li>Клиенты</li>
+                <li>Чат</li>
+                <li class="has-submenu">Продукты
+                    <ul class="submenu">
+                        <li>Подменю 1</li>
+                        <li>Подменю 2</li>
+                    </ul>
+                </li>
+                <li class="has-submenu">Маркетинг
+                    <ul class="submenu">
+                        <li>Подменю 1</li>
+                        <li>Подменю 2</li>
+                    </ul>
+                </li>
+                <li class="has-submenu">Платформы
+                    <ul class="submenu">
+                        <li>Подменю 1</li>
+                        <li>Подменю 2</li>
+                    </ul>
+                </li>
+                <li>Способ оплаты</li>
+                <li>Доставка</li>
+                <li><a href="#" class="tariff-plan" style="background-color: transparent;padding: 0;">Тарифный план</a></li>
+                <li>Сотрудники</li>
+                <li>Настройки</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <div class="language-switcher">
+                    <select>
+                        <option value="ru">Рус</option>
+                        <option value="uzb">Uzb</option>
+                        <option value="eng">Eng</option>
+                    </select>
+                </div>
+                <div class="balance-container">
+                    <span class="balance">Ваш баланс: 0 UZS</span>
+                    <button class="add-balance">+</button>
+                </div>
+                <div class="icons">
+                    <span class="icon">?</span>
+                    <span class="icon">i</span>
+                    <span class="icon">👤</span>
+                </div>
+            </div>
+            <div id="dashboard" class="dashboard">
+                <!-- Dashboard content here -->
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-header">
+                            <div class="stat-title">Доход</div>
+                            <div class="stat-period">
+                                <select>
+                                    <option>Ежедневно</option>
+                                    <option selected>Еженедельно</option>
+                                    <option>Ежемесячно</option>
+                                    <option>Ежегодно</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="stat-value">0 RUB</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-header">
+                            <div class="stat-title">Заказы</div>
+                            <div class="stat-period">
+                                <select>
+                                    <option>Ежедневно</option>
+                                    <option selected>Еженедельно</option>
+                                    <option>Ежемесячно</option>
+                                    <option>Ежегодно</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="stat-value">0</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-header">
+                            <div class="stat-title">Всего клиентов</div>
+                            <div class="stat-period">
+                                <select>
+                                    <option>Ежедневно</option>
+                                    <option selected>Еженедельно</option>
+                                    <option>Ежемесячно</option>
+                                    <option>Ежегодно</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="stat-value">0</div>
+                    </div>
+                </div>
+                <div class="charts">
+                    <div class="chart">
+                        <div class="chart-header">
+                            <div class="chart-title">Статистика по доходу</div>
+                            <div class="chart-period">
+                                <select>
+                                    <option>Ежедневно</option>
+                                    <option selected>Еженедельно</option>
+                                    <option>Ежемесячно</option>
+                                    <option>Ежегодно</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Chart content -->
+                    </div>
+                    <div class="chart">
+                        <div class="chart-header">
+                            <div class="chart-title">Статистика заказов</div>
+                            <div class="chart-period">
+                                <select>
+                                    <option>Ежедневно</option>
+                                    <option selected>Еженедельно</option>
+                                    <option>Ежемесячно</option>
+                                    <option>Ежегодно</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Chart content -->
+                    </div>
+                </div>
+                <div class="traffic-and-top-products">
+                    <div class="traffic">
+                        <div class="traffic-header">
+                            <div class="traffic-title">Источник трафика</div>
+                            <div class="traffic-period">
+                                <select>
+                                    <option>Ежедневно</option>
+                                    <option selected>Еженедельно</option>
+                                    <option>Ежемесячно</option>
+                                    <option>Ежегодно</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Traffic content -->
+                    </div>
+                    <div class="top-products">
+                        <div class="top-products-header">
+                            <div class="top-products-title">Топ 10 продуктов</div>
+                            <div class="top-products-period">
+                                <select>
+                                    <option>Ежедневно</option>
+                                    <option selected>Еженедельно</option>
+                                    <option>Ежемесячно</option>
+                                    <option>Ежегодно</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Top products content -->
+                    </div>
+                </div>
+                <div class="orders-limit">
+                    <p>Ваш лимит исчерпан</p>
+                    <button class="tariff-plan">Тарифный план</button>
+                </div>
+            </div>
+            <div id="tariffs" class="tariffs" style="display: none;">
+                <div class="tariff-switcher">
+                    <button class="switch active">1 месяц</button>
+                    <button class="switch">6 месяцев</button>
+                    <button class="switch">на год</button>
+                </div>
+                <div class="tariff-plans">
+                    <div class="tariff">
+                        <h3>Тариф 1</h3>
+                        <p>$100</p>
+                        <ul>
+                            <li>Пункт 1</li>
+                            <li>Пункт 2</li>
+                            <li>Пункт 3</li>
+                            <li class="inactive">Пункт 4</li>
+                            <li class="inactive">Пункт 5</li>
+                        </ul>
+                    </div>
+                    <div class="tariff">
+                        <h3>Тариф 2</h3>
+                        <p>$200</p>
+                        <ul>
+                            <li>Пункт 1</li>
+                            <li>Пункт 2</li>
+                            <li>Пункт 3</li>
+                            <li>Пункт 4</li>
+                            <li class="inactive">Пункт 5</li>
+                        </ul>
+                    </div>
+                    <div class="tariff">
+                        <h3>Тариф 3</h3>
+                        <p>$300</p>
+                        <ul>
+                            <li>Пункт 1</li>
+                            <li>Пункт 2</li>
+                            <li>Пункт 3</li>
+                            <li>Пункт 4</li>
+                            <li>Пункт 5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Toggle submenu visibility
+            document.querySelectorAll('.has-submenu').forEach(item => {
+                item.addEventListener('click', () => {
+                    item.classList.toggle('open');
+                });
+            });
+
+            // Show tariffs and hide dashboard
+            document.querySelectorAll('.tariff-plan').forEach(item => {
+                item.addEventListener('click', () => {
+                    document.getElementById('dashboard').style.display = 'none';
+                    document.getElementById('tariffs').style.display = 'block';
+                });
+            });
+
+            // Show dashboard and hide tariffs
+            document.querySelector('#on-main').addEventListener('click', () => {
+                document.getElementById('dashboard').style.display = 'block';
+                document.getElementById('tariffs').style.display = 'none';
+            });
+
+            // Switch active tariff duration
+            document.querySelectorAll('.switch').forEach(item => {
+                item.addEventListener('click', () => {
+                    document.querySelectorAll('.switch').forEach(button => {
+                        button.classList.remove('active');
+                    });
+                    item.classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
